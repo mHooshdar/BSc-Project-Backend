@@ -1,4 +1,4 @@
-#!/home/mhooshdar/Desktop/tagging_backend/venv/bin/python
+#!/home/mhooshdar/Desktop/tagging_project/venv/bin/python
 from django.core import management
 
 if __name__ == "__main__":
