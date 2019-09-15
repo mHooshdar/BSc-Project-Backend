@@ -140,3 +140,4 @@ dmypy.json
 
 media/
 .idea/
+object_detection/models/
