@@ -19,7 +19,8 @@ from django.conf.urls import url, include
 from rest_framework import routers
 from django.conf import settings
 from django.conf.urls.static import static
-from rest_framework.authtoken.views import obtain_auth_token
+
+from tagging_project.auth.views import CustomObtainAuthToken
 
 router = routers.DefaultRouter()
 
@@ -27,8 +28,8 @@ urlpatterns = [
     url(r'^', include(router.urls)),
     path('admin/', admin.site.urls),
     path('api/', include('rest_framework.urls', namespace='rest_framework')),
-    path('api/upload/', include('tagging_project.upload.urls')),
-    path('api/token/', obtain_auth_token, name='token'),
+    path('api/files/', include('tagging_project.file.urls')),
+    path('api/token/', CustomObtainAuthToken.as_view()),
 ]
 
 if settings.DEBUG:
