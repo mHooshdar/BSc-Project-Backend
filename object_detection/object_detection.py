@@ -5,6 +5,7 @@ import tensorflow as tf
 from distutils.version import StrictVersion
 from matplotlib import pyplot as plt
 from PIL import Image
+from io import BytesIO
 
 from tensorflow.models.research.object_detection.utils import ops as utils_ops
 from tensorflow.models.research.object_detection.utils import label_map_util
@@ -17,9 +18,9 @@ if StrictVersion(tf.__version__) < StrictVersion('1.12.0'):
 # Model name.
 MODEL_NAME = 'ssd_mobilenet_v2_oid_v4_2018_12_12'
 # Path to frozen detection graph. This is the actual model that is used for the object detection.
-PATH_TO_FROZEN_GRAPH = 'models/' + MODEL_NAME + '/frozen_inference_graph.pb'
+PATH_TO_FROZEN_GRAPH = 'object_detection/models/' + MODEL_NAME + '/frozen_inference_graph.pb'
 # List of the strings that is used to add correct label for each box.
-PATH_TO_LABELS = os.path.join('labels', 'oid_v4_label_map.pbtxt')
+PATH_TO_LABELS = os.path.join('object_detection/labels', 'oid_v4_label_map.pbtxt')
 
 detection_graph = tf.Graph()
 with detection_graph.as_default():
@@ -30,22 +31,12 @@ with detection_graph.as_default():
         tf.import_graph_def(od_graph_def, name='')
 
 category_index = label_map_util.create_category_index_from_labelmap(PATH_TO_LABELS, use_display_name=True)
-print(category_index)
 
 
 def load_image_into_numpy_array(image):
     (im_width, im_height) = image.size
     return np.array(image.getdata()).reshape(
         (im_height, im_width, 3)).astype(np.uint8)
-
-
-# If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
-PATH_TO_TEST_IMAGES_DIR = 'images'
-# TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'image{}.jpg'.format(i)) for i in range(1, 1) ]
-TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'image1.jpg')]
-
-# Size, in inches, of the output images.
-IMAGE_SIZE = (12, 8)
 
 
 def run_inference_for_single_image(image, graph):
@@ -94,7 +85,12 @@ def run_inference_for_single_image(image, graph):
     return output_dict
 
 
-for image_path in TEST_IMAGE_PATHS:
+def detect_object(image_path="", output_size=(12, 8), output_path='result'):
+    # If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
+    # TEST_IMAGE_PATHS = [os.path.join(input_path, file_name)]
+    figure = BytesIO()
+    # Size, in inches, of the output images.
+    IMAGE_SIZE = output_size
     image = Image.open(image_path)
     # the array based representation of the image will be used later in order to prepare the
     # result image with boxes and labels on it.
@@ -115,4 +111,23 @@ for image_path in TEST_IMAGE_PATHS:
         line_thickness=8)
     plt.figure(figsize=IMAGE_SIZE)
     plt.imshow(image_np)
-    plt.savefig('result/' + image_path, bbox_inches='tight')
+    print(output_dict)
+
+    categories = []
+    for i in range(len(output_dict['detection_scores'])):
+        score = output_dict['detection_scores'][i]
+        if score != 0:
+            categories.append({
+                'score': score,
+                'ymin': output_dict['detection_boxes'][i][0],
+                'xmin': output_dict['detection_boxes'][i][1],
+                'ymax': output_dict['detection_boxes'][i][2],
+                'xmax': output_dict['detection_boxes'][i][3],
+                'class_id': output_dict['detection_classes'][i],
+                'class_name': category_index[output_dict['detection_classes'][i]]['name'],
+            })
+    print(categories)
+    # detection_mask => [ymin, xmin, ymax, xmax] => [left, right, top, bottom]
+    # plt.savefig(os.path.join(output_path, 'media'), bbox_inches='tight')
+    plt.savefig(figure)
+    return figure, categories

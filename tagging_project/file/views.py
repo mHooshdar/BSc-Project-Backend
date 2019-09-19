@@ -1,14 +1,23 @@
 from rest_framework.decorators import api_view
 from rest_framework import status
 from rest_framework.response import Response
+from object_detection.object_detection import detect_object
+import copy, sys
 
 from .serializers import FileSerializer
 from tagging_project.file.models import File
+from django.core.files.uploadedfile import InMemoryUploadedFile
 
 
 @api_view(['PUT'])
 def create_file(request):
-    file_serializer = FileSerializer(data=request.data)
+    a = copy.deepcopy(request.data)
+    result_image, categories = detect_object(request.FILES["file"])
+    result_image.seek(0)
+
+    a["result"] = InMemoryUploadedFile(result_image, 'ImageField', request.FILES["file"].name, 'image/jpeg', sys.getsizeof(result_image), None)
+
+    file_serializer = FileSerializer(data=a, context={'request': request})
 
     if file_serializer.is_valid():
         file_serializer.save()
