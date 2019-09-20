@@ -1,4 +1,6 @@
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view, authentication_classes, permission_classes
+from rest_framework.authentication import TokenAuthentication
+from rest_framework.permissions import IsAuthenticated
 from rest_framework import status
 from rest_framework.response import Response
 import copy, sys
@@ -10,6 +12,8 @@ from tagging_project.file.models import Category
 
 
 @api_view(['PUT'])
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
 def create_file(request):
     from object_detection.object_detection import detect_object
     from googletrans import Translator
@@ -69,6 +73,8 @@ def create_file(request):
 
 
 @api_view(['GET'])
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
 def get_user_files(request, user_id):
     result = []
     files = File.objects.filter(user=user_id)
@@ -86,6 +92,8 @@ def get_user_files(request, user_id):
 
 
 @api_view(['DELETE'])
+@authentication_classes([TokenAuthentication])
+@permission_classes([IsAuthenticated])
 def delete_file(request, file_id):
     file = File.objects.filter(pk=file_id)
     if file:

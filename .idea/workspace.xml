@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10901e77-5892-48de-bf61-e12a1228f8fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/object_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/object_detection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tagging_project/file/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tagging_project/file/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tagging_project/file/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tagging_project/file/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tagging_project/file/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/tagging_project/file/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tagging_project/file/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tagging_project/file/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tagging_project/file/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tagging_project/file/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tagging_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tagging_project/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tagging_project/file/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="86" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="302">
+              <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
               </folding>
@@ -94,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tagging_project/auth/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
@@ -109,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tagging_project/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="33" column="24" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="24" />
+            <state relative-caret-position="204">
+              <caret line="115" column="58" selection-start-line="115" selection-start-column="39" selection-end-line="115" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -139,8 +133,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>FileUpload</find>
-      <find>Upload</find>
       <find>parser_class</find>
       <find>__str</find>
       <find>photo_url</find>
@@ -168,7 +160,9 @@
       <find>print</find>
       <find>PATH_TO_LABELS</find>
       <find>application</find>
+      <find>installed_a</find>
       <find>CustomObtainAuthToken</find>
+      <find>DEFAULT_AUTHENTICATION_CLASSES</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -227,7 +221,6 @@
         <option value="$PROJECT_DIR$/tagging_project/file/apps.py" />
         <option value="$PROJECT_DIR$/tagging_project/urls.py" />
         <option value="$PROJECT_DIR$/tagging_project/file/migrations/0003_file_description.py" />
-        <option value="$PROJECT_DIR$/tagging_project/settings.py" />
         <option value="$PROJECT_DIR$/tagging_project/file/migrations/0002_file_user.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/afec39a0-5b8e-4f8e-a0f4-bc80af938acd/console.sql" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -235,9 +228,10 @@
         <option value="$PROJECT_DIR$/tagging_project/file/models.py" />
         <option value="$PROJECT_DIR$/tagging_project/file/admin.py" />
         <option value="$PROJECT_DIR$/object_detection/object_detection.py" />
-        <option value="$PROJECT_DIR$/tagging_project/file/views.py" />
         <option value="$PROJECT_DIR$/tagging_project/file/urls.py" />
         <option value="$PROJECT_DIR$/tagging_project/auth/views.py" />
+        <option value="$PROJECT_DIR$/tagging_project/settings.py" />
+        <option value="$PROJECT_DIR$/tagging_project/file/views.py" />
       </list>
     </option>
   </component>
@@ -277,18 +271,6 @@
               <item name="BSc-Project-Backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="BSc-Project-Backend" type="462c0819:PsiDirectoryNode" />
               <item name="tagging_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BSc-Project-Backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BSc-Project-Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="tagging_project" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BSc-Project-Backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BSc-Project-Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="tagging_project" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BSc-Project-Backend" type="b2602c69:ProjectViewProjectNode" />
@@ -486,12 +468,12 @@
       <workItem from="1568727655869" duration="4623000" />
       <workItem from="1568832937964" duration="4747000" />
       <workItem from="1568880808255" duration="3771000" />
-      <workItem from="1568961326252" duration="13249000" />
+      <workItem from="1568961326252" duration="17584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66353000" />
+    <option name="totallyTimeSpent" value="70688000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -718,32 +700,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tagging_project/file/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/object_detection/object_detection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="110" column="24" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tagging_project/file/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -775,6 +737,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tagging_project/auth/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tagging_project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="115" column="58" selection-start-line="115" selection-start-column="39" selection-end-line="115" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tagging_project/file/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -782,19 +761,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tagging_project/settings.py">
+    <entry file="file://$PROJECT_DIR$/tagging_project/file/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="24" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tagging_project/auth/views.py">
+    <entry file="file://$PROJECT_DIR$/tagging_project/file/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="302">
+          <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
