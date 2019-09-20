@@ -108,10 +108,11 @@ def detect_object(image_path="", output_size=(12, 8), output_path='result'):
         category_index,
         instance_masks=output_dict.get('detection_masks'),
         use_normalized_coordinates=True,
-        line_thickness=8)
+        line_thickness=4,
+        min_score_thresh=0.2
+    )
     plt.figure(figsize=IMAGE_SIZE)
     plt.imshow(image_np)
-    print(output_dict)
 
     categories = []
     for i in range(len(output_dict['detection_scores'])):
@@ -123,10 +124,11 @@ def detect_object(image_path="", output_size=(12, 8), output_path='result'):
                 'xmin': output_dict['detection_boxes'][i][1],
                 'ymax': output_dict['detection_boxes'][i][2],
                 'xmax': output_dict['detection_boxes'][i][3],
+                'area': (output_dict['detection_boxes'][i][2] - output_dict['detection_boxes'][i][0])
+                        * (output_dict['detection_boxes'][i][3] - output_dict['detection_boxes'][i][1]),
                 'class_id': output_dict['detection_classes'][i],
                 'class_name': category_index[output_dict['detection_classes'][i]]['name'],
             })
-    print(categories)
     # detection_mask => [ymin, xmin, ymax, xmax] => [left, right, top, bottom]
     # plt.savefig(os.path.join(output_path, 'media'), bbox_inches='tight')
     plt.savefig(figure)
