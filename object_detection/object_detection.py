@@ -85,7 +85,7 @@ def run_inference_for_single_image(image, graph):
     return output_dict
 
 
-def detect_object(image_path="", output_size=(12, 8), output_path='result'):
+def detect_object(image_path="", output_size=(24, 14), output_path='result'):
     # If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
     # TEST_IMAGE_PATHS = [os.path.join(input_path, file_name)]
     figure = BytesIO()
@@ -119,13 +119,13 @@ def detect_object(image_path="", output_size=(12, 8), output_path='result'):
         score = output_dict['detection_scores'][i]
         if score != 0:
             categories.append({
-                'score': score,
-                'ymin': output_dict['detection_boxes'][i][0],
-                'xmin': output_dict['detection_boxes'][i][1],
-                'ymax': output_dict['detection_boxes'][i][2],
-                'xmax': output_dict['detection_boxes'][i][3],
-                'area': (output_dict['detection_boxes'][i][2] - output_dict['detection_boxes'][i][0])
-                        * (output_dict['detection_boxes'][i][3] - output_dict['detection_boxes'][i][1]),
+                'score': round(score, 2),
+                'ymin': round(output_dict['detection_boxes'][i][0], 2),
+                'xmin': round(output_dict['detection_boxes'][i][1], 2),
+                'ymax': round(output_dict['detection_boxes'][i][2], 2),
+                'xmax': round(output_dict['detection_boxes'][i][3], 2),
+                'area': round((output_dict['detection_boxes'][i][2] - output_dict['detection_boxes'][i][0])
+                        * (output_dict['detection_boxes'][i][3] - output_dict['detection_boxes'][i][1]), 2),
                 'class_id': output_dict['detection_classes'][i],
                 'class_name': category_index[output_dict['detection_classes'][i]]['name'],
             })

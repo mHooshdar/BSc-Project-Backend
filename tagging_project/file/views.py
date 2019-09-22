@@ -78,7 +78,7 @@ def create_file(request):
 def get_user_files(request, user_id):
     result = []
     files = File.objects.filter(user=user_id)
-    file_serializer = FileSerializer(files, many=True)
+    file_serializer = FileSerializer(files, many=True, context={'request': request})
 
     for file in file_serializer.data:
         categories = Category.objects.filter(file=file['id'])

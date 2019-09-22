@@ -13,12 +13,12 @@ class File(models.Model):
 
 class Category(models.Model):
     class_id = models.IntegerField(blank=False, null=False)
-    score = models.FloatField(blank=False, null=False)
-    ymin = models.FloatField(blank=False, null=False)
-    xmin = models.FloatField(blank=False, null=False)
-    ymax = models.FloatField(blank=False, null=False)
-    xmax = models.FloatField(blank=False, null=False)
-    area = models.FloatField(blank=False, default=0)
+    score = models.DecimalField(blank=False, null=False, max_digits=5, decimal_places=2)
+    ymin = models.DecimalField(blank=False, null=False, max_digits=5, decimal_places=2)
+    xmin = models.DecimalField(blank=False, null=False, max_digits=5, decimal_places=2)
+    ymax = models.DecimalField(blank=False, null=False, max_digits=5, decimal_places=2)
+    xmax = models.DecimalField(blank=False, null=False, max_digits=5, decimal_places=2)
+    area = models.DecimalField(blank=False, default=0, max_digits=5, decimal_places=2)
     class_name = models.CharField(max_length=100, blank=False, null=False)
     class_name_fa = models.CharField(max_length=100, default='')
     file = models.ForeignKey(File, on_delete=models.CASCADE, null=False)
