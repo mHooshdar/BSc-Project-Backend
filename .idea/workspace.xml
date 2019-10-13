@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10901e77-5892-48de-bf61-e12a1228f8fb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/object_detection/object_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/object_detection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tagging_project/file/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tagging_project/file/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tagging_project/file/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tagging_project/file/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,85 +30,6 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/object_detection/object_detection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="120" column="12" selection-start-line="120" selection-start-column="12" selection-end-line="120" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tagging_project/file/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tagging_project/file/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tagging_project/file/serializers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tagging_project/file/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="85" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tagging_project/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1955">
-              <caret line="115" column="58" selection-start-line="115" selection-start-column="39" selection-end-line="115" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tagging_project/file/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -118,109 +38,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>photo_url</find>
-      <find>images</find>
-      <find>PATH_TO_TEST_IMAGES_DIR</find>
-      <find>full_path</find>
-      <find>Image</find>
-      <find>TEST_IMAGE_PATHS</find>
-      <find>image</find>
-      <find>open</find>
-      <find>output_path</find>
-      <find>query_di</find>
-      <find>image_path</find>
-      <find>plot</find>
-      <find>plt.</find>
-      <find>BytesIO</find>
-      <find>classes</find>
-      <find>class</find>
-      <find>label</find>
-      <find>category_index</find>
-      <find>.data</find>
-      <find>object</find>
-      <find>categories</find>
-      <find>.register</find>
-      <find>PATH_TO_LABELS</find>
-      <find>application</find>
-      <find>installed_a</find>
-      <find>CustomObtainAuthToken</find>
-      <find>DEFAULT_AUTHENTICATION_CLASSES</find>
-      <find>delete_file</find>
-      <find>context</find>
-      <find>print</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>tagging_project</replace>
-      <replace>tagging</replace>
-      <replace>from tensorflow.models.research.object_detection.</replace>
-      <replace>file_url</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$USER_HOME$/.local/lib/python3.7/site-packages/tensorflow/models/research/object_detection</dir>
-      <dir>$PROJECT_DIR$</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/tagging_backend/settings.py" />
-        <option value="$PROJECT_DIR$/tagging_app/views.py" />
-        <option value="$PROJECT_DIR$/tagging_app/urls.py" />
-        <option value="$PROJECT_DIR$/tagging_app/models.py" />
-        <option value="$PROJECT_DIR$/tagging/urls.py" />
-        <option value="$PROJECT_DIR$/tagging/views.py" />
-        <option value="$PROJECT_DIR$/tagging/models.py" />
-        <option value="$PROJECT_DIR$/polls/admin.py" />
-        <option value="$PROJECT_DIR$/polls/templates/polls/detail.html" />
-        <option value="$PROJECT_DIR$/polls/templates/polls/index.html" />
-        <option value="$PROJECT_DIR$/tagging/object_detection/__init__.py" />
-        <option value="$PROJECT_DIR$/tagging/object_detection/object_detection.py" />
-        <option value="$PROJECT_DIR$/tagging/object_detection/utils/label_map_util.py" />
-        <option value="$PROJECT_DIR$/__init__.py" />
-        <option value="$PROJECT_DIR$/object_detection/__init__.py" />
-        <option value="$USER_HOME$/.local/lib/python3.7/site-packages/tensorflow/models/research/object_detection/utils/label_map_util.py" />
-        <option value="$PROJECT_DIR$/polls/models.py" />
-        <option value="$PROJECT_DIR$/polls/urls.py" />
-        <option value="$PROJECT_DIR$/polls/views.py" />
-        <option value="$PROJECT_DIR$/serializer/__init__.py" />
-        <option value="$PROJECT_DIR$/serializer/user.py" />
-        <option value="$PROJECT_DIR$/serializer/group.py" />
-        <option value="$PROJECT_DIR$/views/user.py" />
-        <option value="$PROJECT_DIR$/views/group.py" />
-        <option value="$PROJECT_DIR$/serializers/image_file.py" />
-        <option value="$PROJECT_DIR$/uploadapp/serializers.py" />
-        <option value="$PROJECT_DIR$/uploadapp/views.py" />
-        <option value="$PROJECT_DIR$/uploadapp/urls.py" />
-        <option value="$PROJECT_DIR$/uploadapp/models.py" />
-        <option value="$PROJECT_DIR$/tagging_project/upload/apps.py" />
-        <option value="$PROJECT_DIR$/tagging_project/upload/urls.py" />
-        <option value="$PROJECT_DIR$/tagging_project/upload/models.py" />
-        <option value="$PROJECT_DIR$/tagging_project/upload/admin.py" />
-        <option value="$PROJECT_DIR$/tagging_project/upload/serializers.py" />
-        <option value="$PROJECT_DIR$/tagging_project/auth/vies.py" />
-        <option value="$PROJECT_DIR$/tagging_project/upload/views.py" />
-        <option value="$PROJECT_DIR$/tagging_project/file/apps.py" />
-        <option value="$PROJECT_DIR$/tagging_project/urls.py" />
-        <option value="$PROJECT_DIR$/tagging_project/file/migrations/0003_file_description.py" />
-        <option value="$PROJECT_DIR$/tagging_project/file/migrations/0002_file_user.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/afec39a0-5b8e-4f8e-a0f4-bc80af938acd/console.sql" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/tagging_project/file/serializers.py" />
-        <option value="$PROJECT_DIR$/tagging_project/file/admin.py" />
-        <option value="$PROJECT_DIR$/tagging_project/file/urls.py" />
-        <option value="$PROJECT_DIR$/tagging_project/auth/views.py" />
-        <option value="$PROJECT_DIR$/tagging_project/settings.py" />
-        <option value="$PROJECT_DIR$/tagging_project/file/models.py" />
-        <option value="$PROJECT_DIR$/object_detection/object_detection.py" />
-        <option value="$PROJECT_DIR$/tagging_project/file/views.py" />
-      </list>
-    </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -233,42 +52,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="70" />
-    <option name="y" value="27" />
-    <option name="width" value="1850" />
-    <option name="height" value="1053" />
-  </component>
+  <component name="ProjectId" id="1Rbj4kNVzmGOXvmETcKnGR9SKs8" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BSc-Project-Backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BSc-Project-Backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BSc-Project-Backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BSc-Project-Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="tagging_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BSc-Project-Backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -460,12 +246,22 @@
       <workItem from="1569084521805" duration="2248000" />
       <workItem from="1569138841996" duration="14000" />
       <workItem from="1569138898626" duration="7000" />
-      <workItem from="1569174155058" duration="4758000" />
+      <workItem from="1569174155058" duration="4994000" />
+      <workItem from="1569341185601" duration="953000" />
+      <workItem from="1569349162921" duration="976000" />
+      <workItem from="1569395025477" duration="612000" />
+      <workItem from="1569829906171" duration="937000" />
+      <workItem from="1569844400618" duration="355000" />
+      <workItem from="1569877810128" duration="1553000" />
+      <workItem from="1569882190529" duration="604000" />
+      <workItem from="1569942238451" duration="169000" />
+      <workItem from="1569942512568" duration="212000" />
+      <workItem from="1569950592702" duration="2821000" />
+      <workItem from="1570108500074" duration="432000" />
+      <workItem from="1570109916151" duration="184000" />
+      <workItem from="1570266245286" duration="540000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78745000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,302 +272,20 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="70" y="27" width="1850" height="1053" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22949003" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32824427" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32824427" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3293348" />
-      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32824427" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50110865" side_tool="true" weight="0.32824427" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49833703" visible="true" weight="0.43184295" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49889135" weight="0.32715377" />
-      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3293348" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32982263" />
-      <window_info anchor="right" id="Database" order="4" sideWeight="0.49945474" visible="true" weight="0.32982263" />
-      <window_info anchor="right" x="0" y="0" width="412" height="853" id="Documentation" order="5" sideWeight="0.50054526" side_tool="true" weight="0.32982263" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/polls/admin.py" />
-    <entry file="file://$PROJECT_DIR$/tagging/admin.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.7/site-packages/django/contrib/auth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="98" column="11" lean-forward="true" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/user.py" />
-    <entry file="file://$PROJECT_DIR$/views/group.py" />
-    <entry file="file://$PROJECT_DIR$/serializers/group.py" />
-    <entry file="file://$PROJECT_DIR$/serializers/user.py" />
-    <entry file="file://$PROJECT_DIR$/serializers/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/serializers/image_file.py" />
-    <entry file="file://$PROJECT_DIR$/tagging_project/file/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tagging/apps.py" />
-    <entry file="file://$PROJECT_DIR$/tagging_project/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tagging_project/file/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.7/site-packages/django/conf/urls/static.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="69" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.7/site-packages/django/utils/functional.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="425" lean-forward="true" selection-start-line="425" selection-end-line="425" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.7/site-packages/django/core/files/storage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3213">
-          <caret line="360" column="26" selection-start-line="360" selection-start-column="26" selection-end-line="360" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/Screenshot_from_2019-09-13_20-14-42.png" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.7/site-packages/django/contrib/auth/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="135" column="32" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tagging_project/file/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tagging_project/file/migrations/0002_file_user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tagging_project/file/migrations/0003_file_description.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/afec39a0-5b8e-4f8e-a0f4-bc80af938acd/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/afec39a0-5b8e-4f8e-a0f4-bc80af938acd/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.7/site-packages/django/db/models/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="145" column="8" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.7/site-packages/django/core/handlers/exception.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="519" selection-start-line="519" selection-end-line="519" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/image4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/media/image4_MLXpRE1.jpg" />
-    <entry file="file://$PROJECT_DIR$/result/media/image4_i5HPXe1.jpg" />
-    <entry file="file://$PROJECT_DIR$/result/media/image4_7kfGCB1.jpg" />
-    <entry file="file://$PROJECT_DIR$/result/media/image4_oif7Vl7.jpg" />
-    <entry file="file://$PROJECT_DIR$/result/media/image7.jpg" />
-    <entry file="file:///usr/lib/python3/dist-packages/PIL/Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="2602" column="4" selection-start-line="2602" selection-start-column="4" selection-end-line="2602" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/media.png" />
-    <entry file="file:///usr/lib/python3.7/copy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-507">
-          <caret line="131" column="4" selection-start-line="131" selection-start-column="4" selection-end-line="131" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.7/site-packages/django/core/files/images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/aaa.jpg" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.7/site-packages/tensorflow/models/research/object_detection/utils/visualization_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="689" column="20" selection-start-line="689" selection-start-column="20" selection-end-line="689" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="125" column="12" lean-forward="true" selection-start-line="125" selection-start-column="12" selection-end-line="125" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.7/site-packages/tensorflow/models/research/object_detection/utils/label_map_util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-303">
-          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/object_detection/labels/oid_v4_label_map.pbtxt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tagging_project/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tagging_project/file/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tagging_project/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="115" column="58" selection-start-line="115" selection-start-column="39" selection-end-line="115" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tagging_project/file/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tagging_project/file/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.7/site-packages/django/db/models/fields/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="1727" column="6" selection-start-line="1727" selection-start-column="6" selection-end-line="1727" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tagging_project/auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tagging_project/file/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="85" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/object_detection/object_detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="120" column="12" selection-start-line="120" selection-start-column="12" selection-end-line="120" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tagging_project/file/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -52,8 +52,7 @@ def run_inference_for_single_image(image, graph):
             ]:
                 tensor_name = key + ':0'
                 if tensor_name in all_tensor_names:
-                    tensor_dict[key] = tf.get_default_graph().get_tensor_by_name(
-                        tensor_name)
+                    tensor_dict[key] = tf.get_default_graph().get_tensor_by_name(tensor_name)
             if 'detection_masks' in tensor_dict:
                 # The following processing is only for single image
                 detection_boxes = tf.squeeze(tensor_dict['detection_boxes'], [0])
@@ -67,8 +66,7 @@ def run_inference_for_single_image(image, graph):
                 detection_masks_reframed = tf.cast(
                     tf.greater(detection_masks_reframed, 0.5), tf.uint8)
                 # Follow the convention by adding back the batch dimension
-                tensor_dict['detection_masks'] = tf.expand_dims(
-                    detection_masks_reframed, 0)
+                tensor_dict['detection_masks'] = tf.expand_dims(detection_masks_reframed, 0)
             image_tensor = tf.get_default_graph().get_tensor_by_name('image_tensor:0')
 
             # Run inference
